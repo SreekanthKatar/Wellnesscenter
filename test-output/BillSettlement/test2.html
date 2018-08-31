@@ -1,0 +1,2231 @@
+<html>
+<head>
+<title>TestNG:  test2</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>test2</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>52/7/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Apr 29 15:59:18 IST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>851 seconds (851041 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_227_Verify_Credit_Card_Number_with_Alphanumeric_Invalid()'><b>BS_227_Verify_Credit_Card_Number_with_Alphanumeric_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-2106592975" onClick='toggleBox("Output-2106592975", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2106592975" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2106592975">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Payment Mode is Dropdown<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+As expected Name on Credit Card text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Number text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Type dropdown is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Add Settlement button is enabled by default<br/>
+Entered Sreekanth Katar at Name on Credit Card text box<br/>
+Entered Sree123 Alphanumeric as invalid at Credit Card Number text box<br/>
+Entered 1106 at Amount text box<br/>
+Selected Visa option at Credit Card Type Drop Down<br/>
+Clicked on AddSettlement button<br/>
+As expected Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+Add Settlement button is not disabled, after generated bill amount grid<br/>
+As expected Bill Amount Web Table is displayed<br/>
+As expected Save button is displayed<br/>
+Save button is not enabled<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.pageLibrary.Bill_Settlement.bs_227_Verify_Credit_Card_Number_with_Alphanumeric_Invalid(Bill_Settlement.java:953)
+	at com.testScripts.Bill_Settlement_Test.BS_227_Verify_Credit_Card_Number_with_Alphanumeric_Invalid(Bill_Settlement_Test.java:108)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2106592975", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2106592975'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.pageLibrary.Bill_Settlement.bs_227_Verify_Credit_Card_Number_with_Alphanumeric_Invalid(Bill_Settlement.java:953)
+	at com.testScripts.Bill_Settlement_Test.BS_227_Verify_Credit_Card_Number_with_Alphanumeric_Invalid(Bill_Settlement_Test.java:108)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>27</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_54_Verify_Name_on_Credit_Card_Textbox_with_Minimum_6_Char_Valid()'><b>BS_54_Verify_Name_on_Credit_Card_Textbox_with_Minimum_6_Char_Valid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-718068661" onClick='toggleBox("Output-718068661", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-718068661" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-718068661">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+Appointment List Page URL Not Matching with Expected URL<br/>
+Not Displayed Appointment List Page<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.pageLibrary.Staff_Login.sl_11_Verify_Staff_Login_Valid_Username_Valid_Password(Staff_Login.java:413)
+	at com.pageLibrary.Bill_Settlement.bs_54_Verify_Name_on_Credit_Card_Textbox_with_Minimum_6_Char_Valid(Bill_Settlement.java:578)
+	at com.testScripts.Bill_Settlement_Test.BS_54_Verify_Name_on_Credit_Card_Textbox_with_Minimum_6_Char_Valid(Bill_Settlement_Test.java:62)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace718068661", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace718068661'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.pageLibrary.Staff_Login.sl_11_Verify_Staff_Login_Valid_Username_Valid_Password(Staff_Login.java:413)
+	at com.pageLibrary.Bill_Settlement.bs_54_Verify_Name_on_Credit_Card_Textbox_with_Minimum_6_Char_Valid(Bill_Settlement.java:578)
+	at com.testScripts.Bill_Settlement_Test.BS_54_Verify_Name_on_Credit_Card_Textbox_with_Minimum_6_Char_Valid(Bill_Settlement_Test.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>11</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_57_Verify_CreditCard_Number_with_Numeric_Valid()'><b>BS_57_Verify_CreditCard_Number_with_Numeric_Valid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1158258131" onClick='toggleBox("Output-1158258131", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1158258131" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1158258131">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Payment Mode is Dropdown<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+As expected Name on Credit Card text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Number text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Type dropdown is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Add Settlement button is enabled by default<br/>
+Entered Sreekanth Katar as Valid Alphabets at Name on Credit Card text box<br/>
+Entered 4562 at Credit Card Number text box<br/>
+Entered 1106 at Amount text box<br/>
+Selected Visa option at Credit Card Type Drop Down<br/>
+Clicked on AddSettlement button<br/>
+Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+Add Settlement button is not disabled, after generated bill amount grid<br/>
+As expected Bill Amount Web Table is displayed<br/>
+As expected Save button is displayed<br/>
+Save button is not enabled<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.pageLibrary.Bill_Settlement.bs_57_Verify_CreditCard_Number_with_Numeric_Valid(Bill_Settlement.java:838)
+	at com.testScripts.Bill_Settlement_Test.BS_57_Verify_CreditCard_Number_with_Numeric_Valid(Bill_Settlement_Test.java:92)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1158258131", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1158258131'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.pageLibrary.Bill_Settlement.bs_57_Verify_CreditCard_Number_with_Numeric_Valid(Bill_Settlement.java:838)
+	at com.testScripts.Bill_Settlement_Test.BS_57_Verify_CreditCard_Number_with_Numeric_Valid(Bill_Settlement_Test.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>27</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_60_Verify_CreditCard_Number_with_4_Digits_Valid()'><b>BS_60_Verify_CreditCard_Number_with_4_Digits_Valid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-169833205" onClick='toggleBox("Output-169833205", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-169833205" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-169833205">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Payment Mode is Dropdown<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+As expected Name on Credit Card text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Number text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Type dropdown is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Add Settlement button is enabled by default<br/>
+Entered Sreekanth Katar as Valid Alphabets at Name on Credit Card text box<br/>
+Entered 4562, with 4 digits as Valid at Credit Card Number text box<br/>
+Entered 1106 at Amount text box<br/>
+Selected Visa option at Credit Card Type Drop Down<br/>
+Clicked on AddSettlement button<br/>
+Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+Add Settlement button is not disabled, after generated bill amount grid<br/>
+As expected Bill Amount Web Table is displayed<br/>
+As expected Save button is displayed<br/>
+Save button is not enabled<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.pageLibrary.Bill_Settlement.bs_60_Verify_CreditCard_Number_with_4_Digits_Valid(Bill_Settlement.java:1119)
+	at com.testScripts.Bill_Settlement_Test.BS_60_Verify_CreditCard_Number_with_4_Digits_Valid(Bill_Settlement_Test.java:130)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace169833205", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace169833205'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.pageLibrary.Bill_Settlement.bs_60_Verify_CreditCard_Number_with_4_Digits_Valid(Bill_Settlement.java:1119)
+	at com.testScripts.Bill_Settlement_Test.BS_60_Verify_CreditCard_Number_with_4_Digits_Valid(Bill_Settlement_Test.java:130)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>27</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_69_Verify_BankName_with_Alphabets_Valid()'><b>BS_69_Verify_BankName_with_Alphabets_Valid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1615801298" onClick='toggleBox("Output-1615801298", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1615801298" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1615801298">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Selected Cheque option at Payment Dropdown<br/>
+As expected Bank Name text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Number text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Payee text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Date text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected AddSettlement button is enabled by default<br/>
+Entered HDFC as Bank Name Alphabets valid<br/>
+Entered 123456 as Cheque Number<br/>
+Selected Month as 04, Date as 15, Year as 2017 at Cheque Date<br/>
+Entered 1106 as Amount<br/>
+Clicked on Add Settlement Button<br/>
+As expected Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.pageLibrary.Bill_Settlement.bs_69_Verify_BankName_with_Alphabets_Valid(Bill_Settlement.java:1818)
+	at com.testScripts.Bill_Settlement_Test.BS_69_Verify_BankName_with_Alphabets_Valid(Bill_Settlement_Test.java:193)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1615801298", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1615801298'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.pageLibrary.Bill_Settlement.bs_69_Verify_BankName_with_Alphabets_Valid(Bill_Settlement.java:1818)
+	at com.testScripts.Bill_Settlement_Test.BS_69_Verify_BankName_with_Alphabets_Valid(Bill_Settlement_Test.java:193)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>34</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_72_Verify_BankName_with_Minimum_3_Char_Valid()'><b>BS_72_Verify_BankName_with_Minimum_3_Char_Valid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-50072771" onClick='toggleBox("Output-50072771", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-50072771" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-50072771">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Selected Cheque option at Payment Dropdown<br/>
+As expected Bank Name text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Number text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Payee text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Date text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected AddSettlement button is enabled by default<br/>
+Entered SBI at Bank Name as Minimum 3 Characters valid<br/>
+Entered 123456 as Cheque Number<br/>
+Entered Sreekanth Katar as Cheque Payee<br/>
+Selected Month as 04, Date as 15, Year as 2017 at Cheque Date<br/>
+Entered 1106 as Amount<br/>
+Clicked on Add Settlement Button<br/>
+Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.pageLibrary.Bill_Settlement.bs_72_Verify_BankName_with_Minimum_3_Char_Valid(Bill_Settlement.java:2219)
+	at com.testScripts.Bill_Settlement_Test.BS_72_Verify_BankName_with_Minimum_3_Char_Valid(Bill_Settlement_Test.java:226)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace50072771", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace50072771'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.pageLibrary.Bill_Settlement.bs_72_Verify_BankName_with_Minimum_3_Char_Valid(Bill_Settlement.java:2219)
+	at com.testScripts.Bill_Settlement_Test.BS_72_Verify_BankName_with_Minimum_3_Char_Valid(Bill_Settlement_Test.java:226)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>33</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_73_Verify_BankName_with_Maximum_15_Char_Valid()'><b>BS_73_Verify_BankName_with_Maximum_15_Char_Valid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1273958371" onClick='toggleBox("Output-1273958371", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1273958371" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1273958371">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Selected Cheque option at Payment Dropdown<br/>
+As expected Bank Name text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Number text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Payee text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Date text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected AddSettlement button is enabled by default<br/>
+Entered abcdefghijklmno at Bank Name as Maximum 15 Characters valid<br/>
+Entered 123456 as Cheque Number<br/>
+Entered Sreekanth Katar as Cheque Payee<br/>
+Selected Month as 04, Date as 15, Year as 2017 at Cheque Date<br/>
+Entered 1106 as Amount<br/>
+Clicked on Add Settlement Button<br/>
+Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.pageLibrary.Bill_Settlement.bs_73_Verify_BankName_with_Maximum_15_Char_Valid(Bill_Settlement.java:2289)
+	at com.testScripts.Bill_Settlement_Test.BS_73_Verify_BankName_with_Maximum_15_Char_Valid(Bill_Settlement_Test.java:233)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1273958371", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1273958371'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.pageLibrary.Bill_Settlement.bs_73_Verify_BankName_with_Maximum_15_Char_Valid(Bill_Settlement.java:2289)
+	at com.testScripts.Bill_Settlement_Test.BS_73_Verify_BankName_with_Maximum_15_Char_Valid(Bill_Settlement_Test.java:233)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+</pre></div></td>
+<td>33</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_100_Verify_Cheque_Date_with_Morethan_SystemDate()'><b>BS_100_Verify_Cheque_Date_with_Morethan_SystemDate</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-864248990" onClick='toggleBox("Output-864248990", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-864248990" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-864248990">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_101_Verify_Cheque_Date_with_Lessthan_SystemDate()'><b>BS_101_Verify_Cheque_Date_with_Lessthan_SystemDate</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-15892131" onClick='toggleBox("Output-15892131", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-15892131" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-15892131">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_102_Verify_Amount_Lessthan_or_Equal_to_NetAmount()'><b>BS_102_Verify_Amount_Lessthan_or_Equal_to_NetAmount</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-879311295" onClick='toggleBox("Output-879311295", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-879311295" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-879311295">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_103_Verify_Amount_Morethan_NetAmount_Invalid()'><b>BS_103_Verify_Amount_Morethan_NetAmount_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1483145520" onClick='toggleBox("Output-1483145520", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1483145520" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1483145520">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_104_Verify_Cheque_Date_Blank_Invalid()'><b>BS_104_Verify_Cheque_Date_Blank_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-163385254" onClick='toggleBox("Output-163385254", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-163385254" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-163385254">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_224_Verify_Name_on_CreditCard_With_InValid_SpecialCharacters()'><b>BS_224_Verify_Name_on_CreditCard_With_InValid_SpecialCharacters</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1648001170" onClick='toggleBox("Output-1648001170", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1648001170" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1648001170">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Payment Mode is Dropdown<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+As expected Name on Credit Card text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Number text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Type dropdown is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Add Settlement button is enabled by default<br/>
+Entered @!*^# as Special Characters at Name on Credit Card text box<br/>
+Entered 4562 at Credit Card Number text box<br/>
+Entered 1106 at Amount text box<br/>
+Selected Visa option at Credit Card Type Drop Down<br/>
+Clicked on AddSettlement button<br/>
+As expected Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+Add Settlement button is not disabled, after generated bill amount grid<br/>
+As expected Bill Amount Web Table is displayed<br/>
+As expected Save button is displayed<br/>
+Save button is not enabled<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_225_Verify_Name_on_CreditCard_With_InValid_Numeric()'><b>BS_225_Verify_Name_on_CreditCard_With_InValid_Numeric</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-963815509" onClick='toggleBox("Output-963815509", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-963815509" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-963815509">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='paymentmodetype']"}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 21 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>14</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_226_Verify_Name_on_CreditCard_with_below_6_Characters_Invalid()'><b>BS_226_Verify_Name_on_CreditCard_with_below_6_Characters_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-782505238" onClick='toggleBox("Output-782505238", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-782505238" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-782505238">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Payment Mode is Dropdown<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+As expected Name on Credit Card text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Number text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Type dropdown is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Add Settlement button is enabled by default<br/>
+Entered Sree as invalid below 6 characters at Name on Credit Card text box<br/>
+Entered 4562 at Credit Card Number text box<br/>
+Entered 1106 at Amount text box<br/>
+Selected Visa option at Credit Card Type Drop Down<br/>
+Clicked on AddSettlement button<br/>
+As expected Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+Add Settlement button is not disabled, after generated bill amount grid<br/>
+As expected Bill Amount Web Table is displayed<br/>
+As expected Save button is displayed<br/>
+Save button is not enabled<br/>
+As expected not accepted below 6 characters at Name on Card text box<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_228_Verify_Credit_Card_Number_with_Alphabets_Invalid()'><b>BS_228_Verify_Credit_Card_Number_with_Alphabets_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1783568981" onClick='toggleBox("Output-1783568981", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1783568981" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1783568981">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Payment Mode is Dropdown<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+As expected Name on Credit Card text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Number text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Type dropdown is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Add Settlement button is enabled by default<br/>
+Entered Sreekanth Katar at Name on Credit Card text box<br/>
+Entered Sree Alphabets as invalid at Credit Card Number text box<br/>
+Entered 1106 at Amount text box<br/>
+Selected Visa option at Credit Card Type Drop Down<br/>
+Clicked on AddSettlement button<br/>
+As expected Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_229_Verify_BankName_with_Numeric_Invalid()'><b>BS_229_Verify_BankName_with_Numeric_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-67730604" onClick='toggleBox("Output-67730604", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-67730604" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-67730604">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Selected Cheque option at Payment Dropdown<br/>
+As expected Bank Name text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Number text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Payee text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Date text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected AddSettlement button is enabled by default<br/>
+Entered 1234 as Bank Name Numeric Invalid<br/>
+Entered 123456 as Cheque Number<br/>
+Entered Sreekanth Katar as Cheque Payee<br/>
+Selected Month as 04, Date as 15, Year as 2017 at Cheque Date<br/>
+Entered 1106 as Amount<br/>
+Clicked on Add Settlement Button<br/>
+As expected Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+As expected Bank Name Not accepted Numeric as Invalid<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_230_Verify_BankName_with_AlphaNumeric_Invalid()'><b>BS_230_Verify_BankName_with_AlphaNumeric_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-140404585" onClick='toggleBox("Output-140404585", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-140404585" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-140404585">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Selected Cheque option at Payment Dropdown<br/>
+As expected Bank Name text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Number text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Payee text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Date text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected AddSettlement button is enabled by default<br/>
+Entered Sree123 as Bank Name Alphanumeric Invalid<br/>
+Entered 123456 as Cheque Number<br/>
+Entered Sreekanth Katar as Cheque Payee<br/>
+Selected Month as 04, Date as 15, Year as 2017 at Cheque Date<br/>
+Entered 1106 as Amount<br/>
+Clicked on Add Settlement Button<br/>
+As expected Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+As expected Bank Name Not accepted Alphanumeric as Invalid<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_231_Verify_Cheque_Number_with_Alphabets_Invalid()'><b>BS_231_Verify_Cheque_Number_with_Alphabets_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-237373286" onClick='toggleBox("Output-237373286", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-237373286" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-237373286">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_232_Verify_Cheque_Number_with_AlphaNumeric_Invalid()'><b>BS_232_Verify_Cheque_Number_with_AlphaNumeric_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-883521348" onClick='toggleBox("Output-883521348", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-883521348" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-883521348">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_233_Verify_BankName_with_below_3_Char_Invalid()'><b>BS_233_Verify_BankName_with_below_3_Char_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-2086068243" onClick='toggleBox("Output-2086068243", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2086068243" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2086068243">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_234_Verify_Cheque_Payee_with_AlphaNumeric_Invalid()'><b>BS_234_Verify_Cheque_Payee_with_AlphaNumeric_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-749981943" onClick='toggleBox("Output-749981943", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-749981943" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-749981943">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_235_Verify_Cheque_Payee_with_Numeric_Invalid()'><b>BS_235_Verify_Cheque_Payee_with_Numeric_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1155757579" onClick='toggleBox("Output-1155757579", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1155757579" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1155757579">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_51_Verify_Name_on_CreditCard_With_Valid_Alphabets()'><b>BS_51_Verify_Name_on_CreditCard_With_Valid_Alphabets</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1984975621" onClick='toggleBox("Output-1984975621", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1984975621" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1984975621">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Payment Mode is Dropdown<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+As expected Name on Credit Card text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Number text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Type dropdown is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Add Settlement button is enabled by default<br/>
+Entered Sreekanth Katar as Valid Alphabets at Name on Credit Card text box<br/>
+Entered 4562 at Credit Card Number text box<br/>
+Entered 1106 at Amount text box<br/>
+Selected Visa option at Credit Card Type Drop Down<br/>
+Clicked on AddSettlement button<br/>
+Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+Add Settlement button is not disabled, after generated bill amount grid<br/>
+As expected Bill Amount Web Table is displayed<br/>
+As expected Save button is displayed<br/>
+Save button is not enabled<br/>
+                                           <br/>
+Bill No Guest Name Type of Payment Cash Amount<br/>
+----------------------------------------------<br/>
+                                           <br/>
+</div>
+</td>
+<td></td>
+<td>28</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_52_Verify_Name_on_CreditCard_With_InValid_Alphanumeric()'><b>BS_52_Verify_Name_on_CreditCard_With_InValid_Alphanumeric</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-2012330741" onClick='toggleBox("Output-2012330741", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2012330741" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2012330741">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Payment Mode is Dropdown<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+As expected Name on Credit Card text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Number text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Type dropdown is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Add Settlement button is enabled by default<br/>
+Entered Sree123 as Alphanumeric at Name on Credit Card text box<br/>
+Entered 4562 at Credit Card Number text box<br/>
+Entered 1106 at Amount text box<br/>
+Selected Visa option at Credit Card Type Drop Down<br/>
+Clicked on AddSettlement button<br/>
+Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+Add Settlement button is not disabled, after generated bill amount grid<br/>
+As expected Bill Amount Web Table is displayed<br/>
+As expected Save button is displayed<br/>
+Save button is not enabled<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_53_Verify_Name_on_CreditCard_Without_Entering_Name()'><b>BS_53_Verify_Name_on_CreditCard_Without_Entering_Name</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-204684384" onClick='toggleBox("Output-204684384", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-204684384" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-204684384">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+element not visible
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 17 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_55_Verify_Name_on_Credit_Card_Textbox_with_Maximum_30_Char_Valid()'><b>BS_55_Verify_Name_on_Credit_Card_Textbox_with_Maximum_30_Char_Valid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1217875525" onClick='toggleBox("Output-1217875525", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1217875525" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1217875525">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+stale element reference: element is not attached to the page document
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 360 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_56_Verify_Name_on_CreditCard_with_Morethan_30_Char_Invalid()'><b>BS_56_Verify_Name_on_CreditCard_with_Morethan_30_Char_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1936722816" onClick='toggleBox("Output-1936722816", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1936722816" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1936722816">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Payment Mode is Dropdown<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+As expected Name on Credit Card text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Number text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Type dropdown is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Add Settlement button is enabled by default<br/>
+Entered Sreekanthsreekanthsreekanthabcabc as invalid morethan 30 characters at Name on Credit Card text box<br/>
+Entered 4562 at Credit Card Number text box<br/>
+Entered 1106 at Amount text box<br/>
+Selected Visa option at Credit Card Type Drop Down<br/>
+Clicked on AddSettlement button<br/>
+As expected Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+Add Settlement button is not disabled, after generated bill amount grid<br/>
+As expected Bill Amount Web Table is displayed<br/>
+As expected Save button is displayed<br/>
+Save button is not enabled<br/>
+As expected not accepted morethan 30 characters at Name on Card text box<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_58_Verify_Credit_Card_Number_with_SpecialChar_Invalid()'><b>BS_58_Verify_Credit_Card_Number_with_SpecialChar_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1594138273" onClick='toggleBox("Output-1594138273", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1594138273" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1594138273">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Payment Mode is Dropdown<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+As expected Name on Credit Card text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Number text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Type dropdown is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Add Settlement button is enabled by default<br/>
+Entered Sreekanth Katar at Name on Credit Card text box<br/>
+Entered !@#* Special Characters as invalid at Credit Card Number text box<br/>
+Entered 1106 at Amount text box<br/>
+Selected Visa option at Credit Card Type Drop Down<br/>
+Clicked on AddSettlement button<br/>
+As expected Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+Add Settlement button is not disabled, after generated bill amount grid<br/>
+As expected Bill Amount Web Table is displayed<br/>
+As expected Save button is displayed<br/>
+Save button is not enabled<br/>
+As expected not accepted Special characters to enter at Credit Card Number text box<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_59_Verify_Credit_Card_Number_with_Blank_Invalid()'><b>BS_59_Verify_Credit_Card_Number_with_Blank_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1345900725" onClick='toggleBox("Output-1345900725", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1345900725" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1345900725">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Payment Mode is Dropdown<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+As expected Name on Credit Card text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Number text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Type dropdown is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Add Settlement button is enabled by default<br/>
+Entered Sreekanth Katar at Name on Credit Card text box<br/>
+Leaving as Blank as invalid at Credit Card Number text box<br/>
+Entered 1106 at Amount text box<br/>
+Selected Visa option at Credit Card Type Drop Down<br/>
+Clicked on AddSettlement button<br/>
+As expected Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_61_Verify_Credit_Card_Number_with_Morethan_4_digits_Invalid()'><b>BS_61_Verify_Credit_Card_Number_with_Morethan_4_digits_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-79644918" onClick='toggleBox("Output-79644918", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-79644918" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-79644918">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Payment Mode is Dropdown<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+As expected Name on Credit Card text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Number text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Type dropdown is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Add Settlement button is enabled by default<br/>
+Entered Sreekanth Katar as Valid Alphabets at Name on Credit Card text box<br/>
+Accepted 4 digits only as 4562, eventhough given data 45627 with 5 digits, to verify more than 4 digits Invalid at Credit Card Number text box<br/>
+Entered 1106 at Amount text box<br/>
+Selected Visa option at Credit Card Type Drop Down<br/>
+As expected Not Accepting morethan 4 digits at Credit Card Number Text box<br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_62_Verify_Credit_Card_Number_with_below_4_digits_Invalid()'><b>BS_62_Verify_Credit_Card_Number_with_below_4_digits_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1740223770" onClick='toggleBox("Output-1740223770", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1740223770" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1740223770">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Payment Mode is Dropdown<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+As expected Name on Credit Card text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Number text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Type dropdown is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Add Settlement button is enabled by default<br/>
+Entered Sreekanth Katar as Valid Alphabets at Name on Credit Card text box<br/>
+Accepted 3 digits as 456, when verifying below 4 digits Invalid at Credit Card Number text box<br/>
+Entered 1106 at Amount text box<br/>
+Selected Visa option at Credit Card Type Drop Down<br/>
+Clicked on AddSettlement button<br/>
+As expected Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+Add Settlement button is not disabled, after generated bill amount grid<br/>
+As expected Bill Amount Web Table is displayed<br/>
+As expected Save button is displayed<br/>
+Save button is not enabled<br/>
+</div>
+</td>
+<td></td>
+<td>27</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_63_Verify_Default_Option_At_Credit_Card_Type_Dropdown()'><b>BS_63_Verify_Default_Option_At_Credit_Card_Type_Dropdown</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1052212904" onClick='toggleBox("Output-1052212904", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1052212904" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1052212904">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Payment Mode is Dropdown<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Type dropdown is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Select option displayed at Credit Card Type Dropdown by default<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_64_Verify_Credit_Card_Type_Dropdown_Valid()'><b>BS_64_Verify_Credit_Card_Type_Dropdown_Valid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-195801026" onClick='toggleBox("Output-195801026", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-195801026" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-195801026">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Payment Mode is Dropdown<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Type dropdown is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected List Displayed and Selected Visa option at Credit Card Type Dropdown<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_65_Verify_Credit_Card_Type_with_Blank_Invalid()'><b>BS_65_Verify_Credit_Card_Type_with_Blank_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1533985074" onClick='toggleBox("Output-1533985074", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1533985074" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1533985074">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Payment Mode is Dropdown<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+As expected Name on Credit Card text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Number text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Type dropdown is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Add Settlement button is enabled by default<br/>
+Entered Sreekanth Katar at Name on Credit Card text box<br/>
+Entered 4562 as valid at Credit Card Number text box<br/>
+Entered 1106 at Amount text box<br/>
+Leaving as Blank as invalid at Credit Card Type Drop Down<br/>
+Clicked on AddSettlement button<br/>
+As expected Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+</div>
+</td>
+<td></td>
+<td>25</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_66_Verify_Amount_Lessthan_or_Equal_to_NetAmount()'><b>BS_66_Verify_Amount_Lessthan_or_Equal_to_NetAmount</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1424482154" onClick='toggleBox("Output-1424482154", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1424482154" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1424482154">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Payment Mode is Dropdown<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+As expected Name on Credit Card text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Number text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Type dropdown is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Add Settlement button is enabled by default<br/>
+Entered Sreekanth Katar at Name on Credit Card text box<br/>
+Entered 4562 as valid at Credit Card Number text box<br/>
+Entered 250 at Amount text box<br/>
+Selected Visa option at Credit Card Type Drop Down<br/>
+Clicked on AddSettlement button<br/>
+Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+									<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+Entered Sreekanth Katar at Name on Credit Card text box<br/>
+Entered 4562 as valid at Credit Card Number text box<br/>
+Entered 250 at Amount text box<br/>
+Selected Visa option at Credit Card Type Drop Down<br/>
+Clicked on AddSettlement button<br/>
+Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+									<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+Entered Sreekanth Katar at Name on Credit Card text box<br/>
+Entered 4562 as valid at Credit Card Number text box<br/>
+Entered 250 at Amount text box<br/>
+Selected Visa option at Credit Card Type Drop Down<br/>
+Clicked on AddSettlement button<br/>
+Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+									<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+Entered Sreekanth Katar at Name on Credit Card text box<br/>
+Entered 4562 as valid at Credit Card Number text box<br/>
+Entered 250 at Amount text box<br/>
+Selected Visa option at Credit Card Type Drop Down<br/>
+Clicked on AddSettlement button<br/>
+Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+									<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+Entered Sreekanth Katar at Name on Credit Card text box<br/>
+Entered 4562 as valid at Credit Card Number text box<br/>
+Entered 106 at Amount text box<br/>
+Selected Visa option at Credit Card Type Drop Down<br/>
+Clicked on AddSettlement button<br/>
+As expected Alert not presented<br/>
+									<br/>
+Alert not presented<br/>
+									<br/>
+ | Bill No | Guest Name | Type of Payment | Cash Amount | <br/>
+-------------------------------------------------------<br/>
+ | 118      | srinu    | Cash     | 1000.00       | <br/>
+ | 118      | srinu    | Credit Card     | 106.00       | <br/>
+Index: 3, Size: 3<br/>
+</div>
+</td>
+<td></td>
+<td>43</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_67_Verify_Amount_with_Morethan_NetAmount()'><b>BS_67_Verify_Amount_with_Morethan_NetAmount</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-739333799" onClick='toggleBox("Output-739333799", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-739333799" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-739333799">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Payment Mode is Dropdown<br/>
+Selected Credit Card option at Payment Dropdown<br/>
+As expected Name on Credit Card text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Number text box is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Credit Card Type dropdown is displayed after selected Credit Card option at Payment Dropdown<br/>
+As expected Add Settlement button is enabled by default<br/>
+Entered Sreekanth Katar at Name on Credit Card text box<br/>
+Entered 4562 as valid at Credit Card Number text box<br/>
+Entered 1200 at Amount text box<br/>
+Selected Visa option at Credit Card Type Drop Down<br/>
+Clicked on AddSettlement button<br/>
+As expected Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+</div>
+</td>
+<td></td>
+<td>30</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_68_Verify_PaymentMode_Cheque_Option()'><b>BS_68_Verify_PaymentMode_Cheque_Option</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-633326333" onClick='toggleBox("Output-633326333", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-633326333" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-633326333">
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Selected Cheque option at Payment Dropdown<br/>
+As expected Bank Name text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Number text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Payee text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Date text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected AddSettlement button is enabled by default<br/>
+</div>
+</td>
+<td></td>
+<td>10</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_70_Verify_BankName_with_SplChar_Invalid()'><b>BS_70_Verify_BankName_with_SplChar_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-900298796" onClick='toggleBox("Output-900298796", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-900298796" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-900298796">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Selected Cheque option at Payment Dropdown<br/>
+As expected Bank Name text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Number text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Payee text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Date text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected AddSettlement button is enabled by default<br/>
+Entered !@#$% as Bank Name Special Characters Invalid<br/>
+Entered 123456 as Cheque Number<br/>
+Selected Month as 04, Date as 15, Year as 2017 at Cheque Date<br/>
+Entered 1106 as Amount<br/>
+Clicked on Add Settlement Button<br/>
+As expected Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+As expected Bank Name Not accepted Special Characters as Invalid<br/>
+</div>
+</td>
+<td></td>
+<td>35</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_71_Verify_BankName_with_Blank_Invalid()'><b>BS_71_Verify_BankName_with_Blank_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-967677821" onClick='toggleBox("Output-967677821", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-967677821" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-967677821">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Selected Cheque option at Payment Dropdown<br/>
+As expected Bank Name text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Number text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Payee text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Date text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected AddSettlement button is enabled by default<br/>
+Leaving as Blank at Bank Name as Invalid<br/>
+Entered 123456 as Cheque Number<br/>
+Entered Sreekanth Katar as Cheque Payee<br/>
+Selected Month as 04, Date as 15, Year as 2017 at Cheque Date<br/>
+Entered 1106 as Amount<br/>
+Clicked on Add Settlement Button<br/>
+As expected Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+Clicked On OK button in Pop up<br/>
+</div>
+</td>
+<td></td>
+<td>32</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_74_Verify_BankName_with_Morethan_15_Char_Invalid()'><b>BS_74_Verify_BankName_with_Morethan_15_Char_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1430199669" onClick='toggleBox("Output-1430199669", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1430199669" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1430199669">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+Clicked On Appointment Menu<br/>
+Displayed Options of Appointment Module<br/>
+Clicked on Bill Settlement Option<br/>
+Bill Settlement List Page Displayed<br/>
+Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00<br/>
+Clicked on BillNo 118 with Guest Name srinu<br/>
+Bill Settlement Page Displayed<br/>
+As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly<br/>
+Bill ID value is displayed as: 118<br/>
+Bill Amount value is displayed as: 1106.00<br/>
+Guest Name value is displayed as : srinu<br/>
+Selected Cheque option at Payment Dropdown<br/>
+As expected Bank Name text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Number text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Payee text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected Cheque Date text box is displayed after selected Cheque option at Payment Mode Dropdown<br/>
+As expected AddSettlement button is enabled by default<br/>
+Entered abcdefghijklmnop at Bank Name as Morethan 15 Characters Invalid<br/>
+Entered 123456 as Cheque Number<br/>
+Entered Sreekanth Katar as Cheque Payee<br/>
+Selected Month as 04, Date as 15, Year as 2017 at Cheque Date<br/>
+Entered 1106 as Amount<br/>
+Clicked on Add Settlement Button<br/>
+Alert Presented<br/>
+Settlement amount not matching with Net Amount : is displayed at Pop up<br/>
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>33</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_75_Verify_Cheque_Number_with_Numeric_Valid()'><b>BS_75_Verify_Cheque_Number_with_Numeric_Valid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1367672657" onClick='toggleBox("Output-1367672657", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1367672657" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1367672657">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_76_Verify_Cheque_Number_with_Spl_Char_Invalid()'><b>BS_76_Verify_Cheque_Number_with_Spl_Char_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1692375649" onClick='toggleBox("Output-1692375649", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1692375649" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1692375649">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_77_Verify_Cheque_Number_with_Blank_Invalid()'><b>BS_77_Verify_Cheque_Number_with_Blank_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1076202543" onClick='toggleBox("Output-1076202543", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1076202543" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1076202543">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_78_Verify_Cheque_Number_with_Minimum_6_Digits_Valid()'><b>BS_78_Verify_Cheque_Number_with_Minimum_6_Digits_Valid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1731295355" onClick='toggleBox("Output-1731295355", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1731295355" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1731295355">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_79_Verify_Cheque_Number_with_Lessthan_6_Digits_Invalid()'><b>BS_79_Verify_Cheque_Number_with_Lessthan_6_Digits_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-2061440682" onClick='toggleBox("Output-2061440682", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2061440682" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2061440682">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_80_Verify_Cheque_Number_with_Morethan_6_Digits_Invalid()'><b>BS_80_Verify_Cheque_Number_with_Morethan_6_Digits_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1488946768" onClick='toggleBox("Output-1488946768", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1488946768" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1488946768">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_81_Verify_Cheque_Payee_with_Alphabets_Valid()'><b>BS_81_Verify_Cheque_Payee_with_Alphabets_Valid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1907241392" onClick='toggleBox("Output-1907241392", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1907241392" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1907241392">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_82_Verify_Cheque_Payee_with_Spl_Char_Invalid()'><b>BS_82_Verify_Cheque_Payee_with_Spl_Char_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1863100050" onClick='toggleBox("Output-1863100050", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1863100050" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1863100050">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_83_Verify_Cheque_Payee_with_Minimum_3_Char_Valid()'><b>BS_83_Verify_Cheque_Payee_with_Minimum_3_Char_Valid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1482748887" onClick='toggleBox("Output-1482748887", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1482748887" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1482748887">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_84_Verify_Cheque_Payee_with_Lessthan_3_Char_Invalid()'><b>BS_84_Verify_Cheque_Payee_with_Lessthan_3_Char_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-500885941" onClick='toggleBox("Output-500885941", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-500885941" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-500885941">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_85_Verify_Cheque_Payee_with_Maximum_20_Char_Valid()'><b>BS_85_Verify_Cheque_Payee_with_Maximum_20_Char_Valid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-616412281" onClick='toggleBox("Output-616412281", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-616412281" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-616412281">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_86_Verify_Cheque_Payee_with_Morethan_20_Char_Invalid()'><b>BS_86_Verify_Cheque_Payee_with_Morethan_20_Char_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-878861517" onClick='toggleBox("Output-878861517", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-878861517" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-878861517">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_87_Verify_Cheque_Payee_with_Blank_Invalid()'><b>BS_87_Verify_Cheque_Payee_with_Blank_Invalid</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1705665942" onClick='toggleBox("Output-1705665942", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1705665942" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1705665942">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.Bill_Settlement_Test.BS_99_Verify_Cheque_Date_format()'><b>BS_99_Verify_Cheque_Date_format</b><br>Test class: com.testScripts.Bill_Settlement_Test<br/>
+<a href="#Output-1100619942" onClick='toggleBox("Output-1100619942", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1100619942" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1100619942">
+unexpected alert open: {Alert text : Settlement amount not matching with Net Amount}
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2 milliseconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testScripts.Bill_Settlement_Test@39529185</td></tr>
+<tr>
+<td title='com.testScripts.HomePage_Test.HP_01_Verify_HomePage()'><b>HP_01_Verify_HomePage</b><br>Test class: com.testScripts.HomePage_Test<br/>
+<a href="#Output-150268540" onClick='toggleBox("Output-150268540", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-150268540" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-150268540">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+As expected HomePage Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/ at HomePage<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.testScripts.HomePage_Test@15eb5ee5</td></tr>
+<tr>
+<td title='com.testScripts.HomePage_Test.HP_04_Verify_StaffLoginPage()'><b>HP_04_Verify_StaffLoginPage</b><br>Test class: com.testScripts.HomePage_Test<br/>
+<a href="#Output-2134607032" onClick='toggleBox("Output-2134607032", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2134607032" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2134607032">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+As expected Staff Login Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/login at Staff Login Page<br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>com.testScripts.HomePage_Test@15eb5ee5</td></tr>
+<tr>
+<td title='com.testScripts.Staff_Login_Test.SL_01_Verify_Staff_Login_Page()'><b>SL_01_Verify_Staff_Login_Page</b><br>Test class: com.testScripts.Staff_Login_Test<br/>
+<a href="#Output-1438030319" onClick='toggleBox("Output-1438030319", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1438030319" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1438030319">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+As expected Staff Login Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/login at Staff Login Page<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>com.testScripts.Staff_Login_Test@2145b572</td></tr>
+<tr>
+<td title='com.testScripts.Staff_Login_Test.SL_11_Verify_Login_Valid_Username_Valid_Password()'><b>SL_11_Verify_Login_Valid_Username_Valid_Password</b><br>Test class: com.testScripts.Staff_Login_Test<br/>
+<a href="#Output-1661123505" onClick='toggleBox("Output-1661123505", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1661123505" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1661123505">
+Launch_Application: Wellness Application Launched Successfully<br/>
+                               <br/>
+Entered Valid Username<br/>
+Entered Valid Password<br/>
+As expected Alert not presented<br/>
+As expected Appointment List Page Displayed Successfully<br/>
+PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>com.testScripts.Staff_Login_Test@2145b572</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Launch_Browser: Chrome Browser Launching]]>
+    </line>
+    <line>
+      <![CDATA[Chrome Browser Launching]]>
+    </line>
+    <line>
+      <![CDATA[Launch_Browser: Chrome Browser Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[TEST:----->>   << BS_105_Verify_Cash_Option_In_Paymentmode >>  ]]>
+    </line>
+    <line>
+      <![CDATA[                                               ]]>
+    </line>
+    <line>
+      <![CDATA[Launch_Application: Wellness Application Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[                               ]]>
+    </line>
+    <line>
+      <![CDATA[Launch_Application: Wellness Application Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[                               ]]>
+    </line>
+    <line>
+      <![CDATA[Entered Valid Username]]>
+    </line>
+    <line>
+      <![CDATA[Entered Valid Password]]>
+    </line>
+    <line>
+      <![CDATA[As expected Alert not presented]]>
+    </line>
+    <line>
+      <![CDATA[As expected Appointment List Page Displayed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked On Appointment Menu]]>
+    </line>
+    <line>
+      <![CDATA[Displayed Options of Appointment Module]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Bill Settlement Option]]>
+    </line>
+    <line>
+      <![CDATA[Bill Settlement List Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on BillNo 118 with Guest Name srinu]]>
+    </line>
+    <line>
+      <![CDATA[Bill Settlement Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[As expected BillID,BillAmount and GuestName text boxes displayed along with values, but these fields are readonly]]>
+    </line>
+    <line>
+      <![CDATA[Bill ID value is displayed as: 118]]>
+    </line>
+    <line>
+      <![CDATA[Bill Amount value is displayed as: 1106.00]]>
+    </line>
+    <line>
+      <![CDATA[Guest Name value is displayed as : srinu]]>
+    </line>
+    <line>
+      <![CDATA[Payment Mode is Dropdown]]>
+    </line>
+    <line>
+      <![CDATA[Selected Credit Card option at Payment Dropdown]]>
+    </line>
+    <line>
+      <![CDATA[As expected Name on Credit Card text box is displayed after selected Credit Card option at Payment Dropdown]]>
+    </line>
+    <line>
+      <![CDATA[As expected Credit Card Number text box is displayed after selected Credit Card option at Payment Dropdown]]>
+    </line>
+    <line>
+      <![CDATA[As expected Credit Card Type dropdown is displayed after selected Credit Card option at Payment Dropdown]]>
+    </line>
+    <line>
+      <![CDATA[As expected Add Settlement button is enabled by default]]>
+    </line>
+    <line>
+      <![CDATA[Entered Sreekanth Katar as Valid Alphabets at Name on Credit Card text box]]>
+    </line>
+    <line>
+      <![CDATA[Entered 4562 at Credit Card Number text box]]>
+    </line>
+    <line>
+      <![CDATA[Entered 1106 at Amount text box]]>
+    </line>
+    <line>
+      <![CDATA[Selected Visa option at Credit Card Type Drop Down]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on AddSettlement button]]>
+    </line>
+    <line>
+      <![CDATA[Alert Presented]]>
+    </line>
+    <line>
+      <![CDATA[Settlement amount not matching with Net Amount : is displayed at Pop up]]>
+    </line>
+    <line>
+      <![CDATA[Clicked On OK button in Pop up]]>
+    </line>
+    <line>
+      <![CDATA[Add Settlement button is not disabled, after generated bill amount grid]]>
+    </line>
+    <line>
+      <![CDATA[As expected Bill Amount Web Table is displayed]]>
+    </line>
+    <line>
+      <![CDATA[As expected Save button is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Save button is not enabled]]>
+    </line>
+    <line>
+      <![CDATA[                                           ]]>
+    </line>
+    <line>
+      <![CDATA[Bill No Guest Name Type of Payment Cash Amount]]>
+    </line>
+    <line>
+      <![CDATA[----------------------------------------------]]>
+    </line>
+    <line>
+      <![CDATA[                                           ]]>
+    </line>
+    <line>
+      <![CDATA[Launch_Application: Wellness Application Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[                               ]]>
+    </line>
+    <line>
+      <![CDATA[As expected HomePage Displayed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[PageURL displayed as : http://172.22.5.34:8080/wellness/ at HomePage]]>
+    </line>
+    <line>
+      <![CDATA[Launch_Application: Wellness Application Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[                               ]]>
+    </line>
+    <line>
+      <![CDATA[Launch_Application: Wellness Application Launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[                               ]]>
+    </line>
+    <line>
+      <![CDATA[Entered Valid Username]]>
+    </line>
+    <line>
+      <![CDATA[Entered Valid Password]]>
+    </line>
+    <line>
+      <![CDATA[As expected Alert not presented]]>
+    </line>
+    <line>
+      <![CDATA[As expected Appointment List Page Displayed Successfully]]>
+    </line>
+    <line>
+      <![CDATA[PageURL displayed as : http://172.22.5.34:8080/wellness/appointmentslist at Appointment List Page]]>
+    </line>
+    <line>
+      <![CDATA[Clicked On Appointment Menu]]>
+    </line>
+    <line>
+      <![CDATA[Displayed Options of Appointment Module]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Bill Settlement Option]]>
+    </line>
+    <line>
+      <![CDATA[Bill Settlement List Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Record Available for BillNo 118 with Guest Name srinu, and BillAmount is: 1106.00]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on BillNo 118 with Guest Name srinu]]>
+    </line>
+    <line>
+      <![CDATA[Bill Settlement Page Displayed]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.00 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.00 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.00 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.03 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.00 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.00 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.00 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.03 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.00 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.09 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.00 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.06 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.07 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.00 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.00 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.03 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[TEST:----->>   << RP_36_verify_SelectBillType >>  ]]>
+    </line>
+    <line>
+      <![CDATA[                                               ]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.03 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.03 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.03 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.03 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.00 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.00 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.02 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[chrome not reachable
+  (Session info: chrome=57.0.2987.133)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.00 seconds
+Build info: version: '2.2.1', revision: '16551', time: '2012-04-11 21:42:35'
+System info: os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: RemoteWebDriver]]>
+    </line>
+    <line>
+      <![CDATA[                               ]]>
+    </line>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="20" started-at="2017-05-08T04:47:08Z" finished-at="2017-05-08T04:47:08Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="20" started-at="2017-05-08T04:47:08Z" finished-at="2017-05-08T04:47:08Z">
+      <class name="com.leonia.AppTest">
+        <test-method status="PASS" signature="testApp()[pri:0, instance:testApp(com.leonia.AppTest)]" name="testApp" duration-ms="1" started-at="2017-05-08T10:17:08Z" finished-at="2017-05-08T10:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testApp -->
+      </class> <!-- com.leonia.AppTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

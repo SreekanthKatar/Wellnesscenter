@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [BillSettlement]">
+  <test name="test2">
+    <classes>
+      <class name="com.testScripts.HomePage_Test"/>
+      <class name="com.testScripts.Staff_Login_Test"/>
+      <class name="com.testScripts.Bill_Settlement_Test"/>
+    </classes>
+  </test> <!-- test2 -->
+  <test name="test2(failed)">
+    <classes>
+      <class name="com.testScripts.Bill_Settlement_Test">
+        <methods>
+          <include name="BS_69_Verify_BankName_with_Alphabets_Valid"/>
+          <include name="BS_73_Verify_BankName_with_Maximum_15_Char_Valid"/>
+          <include name="BS_227_Verify_Credit_Card_Number_with_Alphanumeric_Invalid"/>
+          <include name="BS_54_Verify_Name_on_Credit_Card_Textbox_with_Minimum_6_Char_Valid"/>
+          <include name="BS_57_Verify_CreditCard_Number_with_Numeric_Valid"/>
+          <include name="BS_60_Verify_CreditCard_Number_with_4_Digits_Valid"/>
+          <include name="BS_72_Verify_BankName_with_Minimum_3_Char_Valid"/>
+        </methods>
+      </class> <!-- com.testScripts.Bill_Settlement_Test -->
+      <class name="com.testScripts.HomePage_Test">
+        <methods>
+          <include name="Launch_Browser"/>
+          <include name="Close_Browser"/>
+        </methods>
+      </class> <!-- com.testScripts.HomePage_Test -->
+    </classes>
+  </test> <!-- test2(failed) -->
+</suite> <!-- Failed suite [BillSettlement] -->

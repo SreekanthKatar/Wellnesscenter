@@ -1,0 +1,11 @@
+com\testScripts\Bill_Settlement_Repository.class
+com\testScripts\Staff_Login_Test.class
+com\testScripts\Bill_Settlement_Test.class
+com\testScripts\HomePage_Test.class
+com\testScripts\Appointment_Cancellation_Test.class
+com\testScripts\Reprint_Test.class
+com\testScripts\CustomListener.class
+com\testScripts\Appointment_Module_Bill_Settlement.class
+com\leonia\AppTest.class
+com\testScripts\Bill_Settlement_Lib_Test.class
+com\testScripts\Bill_Settlement_page_test.class

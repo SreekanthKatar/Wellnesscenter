@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.testScripts.Appointment_Module_Bill_Settlement"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.testScripts.Appointment_Module_Bill_Settlement">
+        <methods>
+          <include name="BS_219"/>
+          <include name="BS_190"/>
+          <include name="BS_171"/>
+          <include name="BS_193"/>
+          <include name="BS_194"/>
+          <include name="BS_122"/>
+          <include name="BS_144"/>
+          <include name="BS_186"/>
+          <include name="BS_143"/>
+          <include name="BS_126"/>
+          <include name="BS_124"/>
+          <include name="BS_146"/>
+          <include name="BS_168"/>
+          <include name="BS_125"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="BS_222"/>
+          <include name="BS_128"/>
+          <include name="BS_129"/>
+          <include name="BS_149"/>
+          <include name="BS_209"/>
+          <include name="BS_140"/>
+          <include name="BS_160"/>
+          <include name="BS_177"/>
+          <include name="BS_181"/>
+          <include name="BS_132"/>
+          <include name="BS_236"/>
+          <include name="BS_152"/>
+          <include name="BS_174"/>
+          <include name="BS_135"/>
+          <include name="BS_158"/>
+          <include name="BS_218"/>
+          <include name="BS_139"/>
+          <include name="BS_238"/>
+          <include name="BS_237"/>
+        </methods>
+      </class> <!-- com.testScripts.Appointment_Module_Bill_Settlement -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

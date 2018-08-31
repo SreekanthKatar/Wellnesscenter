@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="com.testScripts.Appointment_Cancellation_Test"/>
+      <class name="com.testScripts.Bill_Settlement_Lib_Test"/>
+      <class name="com.testScripts.Bill_Settlement_Test"/>
+      <class name="com.testScripts.HomePage_Test"/>
+      <class name="com.testScripts.Reprint_Test"/>
+      <class name="com.testScripts.Staff_Login_Test"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.testScripts.Appointment_Cancellation_Test">
+        <methods>
+          <include name="AC_29_Verify_SerachAppointmentDate_Result"/>
+          <include name="AC_06_Verify_All_Labels"/>
+          <include name="AC_34_Verify_OKbutton"/>
+          <include name="Ac_36_Verify_Cancelled_record"/>
+          <include name="AC_04_Verify_Sub_Heading"/>
+          <include name="AC_11_Verify_SerachGuestName_Result"/>
+          <include name="AC_35_Verify_Cancelbutton"/>
+          <include name="AC_13_Verify_SerachAppointmentName_invalid"/>
+          <include name="AC_01_Verify_Appointment_Cancellation_Page"/>
+          <include name="AC_14_Verify_SearchAppointmentName_Numerics_Invalid"/>
+          <include name="AC_32_Verify_Cancel"/>
+          <include name="AC_28_Verify_SearchByAppointment_LessthanSystemDate_Result"/>
+          <include name="AC_39_Verify_All_Buttons"/>
+          <include name="AC_27_Verify_SearchByAppointment_MorethanSystemDate_Result"/>
+          <include name="AC_10_Verify_SerachAppointmentID_Alphabets_invalid"/>
+          <include name="Verify_Web_Table"/>
+          <include name="AC_31_Verify_Status"/>
+          <include name="AC_30_Verify_SerachAppointment_InvalidDate_Result"/>
+          <include name="AC_14_Verify_SearchAppointmentName_SpecialCharacters_Invalid"/>
+          <include name="AC_10_Verify_SerachAppointmentID_Alphanumerics_invalid"/>
+          <include name="AC_05_Verify_Web_Table_Display"/>
+          <include name="Verify_AllDates_Fields"/>
+          <include name="AC_14_Verify_SearchAppointmentName_AlphaNumerics_Invalid"/>
+          <include name="AC_07_Verify_SerachAppointmentID_Result"/>
+          <include name="AC_09_Verify_SerachAppointmentID_invalid"/>
+          <include name="AC_33_Verify_ClickheretoCancel"/>
+          <include name="AC_10_Verify_SerachAppointmentID_SpecialCharacters_invalid"/>
+          <include name="AC_03_Verify_Main_Heading"/>
+          <include name="AC_38_Verify_AllText_Boxes"/>
+        </methods>
+      </class> <!-- com.testScripts.Appointment_Cancellation_Test -->
+      <class name="com.testScripts.Bill_Settlement_Lib_Test">
+        <methods>
+          <include name="BS_106_Verify_Amount_Accepting_EqualTo_Netamount"/>
+          <include name="BS_115_Verify_Amount_Accepting_SpecialCharacters_Invalid"/>
+          <include name="BS_105_Verify_Cash_Option_In_Paymentmode"/>
+          <include name="BS_106_Verify_Amount_Accepting_MoreThan_Netamount"/>
+          <include name="BS_115_Verify_Amount_Accepting_AlphaNumerics_Invalid"/>
+          <include name="BS_106_Verify_Amount_Accepting_LessThan_Netamount"/>
+          <include name="BS_115_Verify_Amount_Accepting_Alphabets_Invalid"/>
+          <include name="BS_116_Verify_Amount_Leaving_Blank_Invalid"/>
+        </methods>
+      </class> <!-- com.testScripts.Bill_Settlement_Lib_Test -->
+      <class name="com.testScripts.HomePage_Test">
+        <methods>
+          <include name="Launch_Browser"/>
+          <include name="HP_04_Verify_StaffLoginPage"/>
+          <include name="Close_Browser"/>
+        </methods>
+      </class> <!-- com.testScripts.HomePage_Test -->
+      <class name="com.testScripts.Reprint_Test">
+        <methods>
+          <include name="RP_16_Verify_To_Date"/>
+          <include name="RP_27_Verify_SearchBillNumber_Alphabets"/>
+          <include name="RP_23_Verify_SearchGuestName_NumericValues_Invalid"/>
+          <include name="RP_23_Verify_SearchGuestName_SpecialCharacters_Invalid"/>
+          <include name="RP_02_Verify_Main_Heading"/>
+          <include name="RP_03_Verify_Sub_Heading"/>
+          <include name="RP_29_Verify_SelectBillTypeOption"/>
+          <include name="RP_36_Verify_SelectBillType"/>
+          <include name="RP_11_Verify_LeavingFromDate_Blank"/>
+          <include name="RP_27_Verify_SearchBillNumber_SpecialCharacters"/>
+          <include name="RP_28_Verify_SelectOption"/>
+          <include name="RP_23_Verify_SearchGuestName_AlphaNumerics_Invalid"/>
+          <include name="RP_09_Verify_From_Date"/>
+          <include name="RP_21_Verify_SearchGuestName"/>
+          <include name="RP_24_Verify_SearchBillNumber"/>
+          <include name="RP_26_Verify_SearchBillNumber_Numerics"/>
+          <include name="RP_22_Verify_SearchGuestName_invalid"/>
+          <include name="RP_25_Verify_SearchBillNumber_Invalid"/>
+          <include name="RP_01_Verify_Reprint_Page"/>
+        </methods>
+      </class> <!-- com.testScripts.Reprint_Test -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

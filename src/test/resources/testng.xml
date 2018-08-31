@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "AppointmentCancellation and Reprint">
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+      <listener class-name = "com.testScripts.CustomListener"/>
+</listeners>
+
+
+<test name = "test2">
+ <classes>
+	<class name = "com.testScripts.HomePage_Test"/> 
+	<class name = "com.testScripts.Staff_Login_Test"/>
+ 	<class name = "com.testScripts.Appointment_Cancellation_Test"/>
+ 	<class name = "com.testScripts.Reprint_Test"/>
+ 
+ </classes>
+ </test>
+ 
+ 
+</suite>

@@ -1,0 +1,1048 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="All tests"
+           tests="333"
+           failures="1"
+           errors="0"
+           skipped="332"
+           time="0.666">
+  <properties />
+            <testcase name="init" time="0.000" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+                <failure type="java.lang.IllegalStateException"
+                  message="The webdriver.chrome.driver system property defined chromedriver executable does not exist: E:\home\krishna\Kishan\Testing Softwares\bdrivers\chromedriver"
+              >
+<![CDATA[java.lang.IllegalStateException: The webdriver.chrome.driver system property defined chromedriver executable does not exist: E:\home\krishna\Kishan\Testing Softwares\bdrivers\chromedriver
+  com.google.common.base.Preconditions.checkState(Preconditions.java:172)
+  org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:121)
+  org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:86)
+  com.pageLocators.Test_Base.getdriver(Test_Base.java:42)
+  com.pageLocators.Test_Base.init(Test_Base.java:109)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:589)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:782)
+  org.testng.TestRunner.run(TestRunner.java:632)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+  org.testng.SuiteRunner.run(SuiteRunner.java:268)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+  org.testng.TestNG.run(TestNG.java:1064)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="init" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="tearDown" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_221" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_146" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_180" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_131" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_223" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_130" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_208" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_200" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_205" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_215" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_199" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_155" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_124" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_239" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_153" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_167" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_184" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_123" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_195" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_179" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_183" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_139" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_214" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_117" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_119" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_192" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_166" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_141" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_138" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_186" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_178" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_222" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_122" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_219" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_218" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_238" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_209" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_149" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_175" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_145" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_150" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_196" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_236" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_143" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_182" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_156" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_190" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_171" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_237" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_212" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_158" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_207" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_133" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_172" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_174" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_197" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_121" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_173" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_140" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_151" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_160" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_137" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_204" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_216" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_165" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_211" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_176" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_136" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_194" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_126" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_128" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_203" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_125" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_188" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_129" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_189" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_187" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_134" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_177" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_201" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_148" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_154" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_120" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_170" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_147" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_210" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_157" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_159" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_118" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_213" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_168" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_127" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_144" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_198" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_191" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_185" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_181" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_206" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_202" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_220" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_132" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_162" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_217" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_142" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_135" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_193" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_164" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_163" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_169" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_161" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+            <testcase name="BS_152" time="0.0" classname="com.testScripts.Appointment_Module_Bill_Settlement">
+          <skipped />
+    </testcase>
+  
+  
+</testsuite>
